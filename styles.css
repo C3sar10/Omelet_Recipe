@@ -1,0 +1,99 @@
+body {
+    background-color: hsl(37, 60%, 86%);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .recipe-container {
+    margin-top: 5em;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em;
+    justify-content: center;
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .image {
+    border-radius: 10px;
+    width: auto;
+    align-items: center;
+  }
+
+  .title {
+    font-family: cursive;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .intro {
+    text-align: left;
+    color: hsl(0, 1%, 46%);
+    padding: 1em;
+    font-size: .85em;
+  }
+
+  .Prep-Container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: hsl(291, 63%, 75%, 0.15);
+    border-radius: 10px;
+  }
+
+  .subheading {
+    color: brown;
+    font-family: inherit;
+  }
+
+  .ingr {
+    padding-left: 10px;
+    text-align: left;
+    font-family: inherit;
+    padding-bottom: 10px;
+  }
+
+  .instructions {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: inherit;
+  }
+
+  li {
+    color: brown;
+    font-size: .95em;
+  }
+
+  .bold {
+    color: hsl(0, 2%, 34%);
+  }
+
+  .line {
+    border-top: 1px solid hsl(0, 0%, 80%);
+    margin: 20px 0;
+  }
+
+  span {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  p {
+    width: 50px;
+    height: 0;
+    align-items: left;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
